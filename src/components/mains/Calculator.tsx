@@ -80,6 +80,8 @@ const ClearButton = styled.button`
     align-items: center;
     background-color: rgb(255, 26, 26);
     color: black;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 25px;
 `
 
 const OutputDiv = styled.div`
