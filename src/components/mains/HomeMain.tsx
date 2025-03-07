@@ -4,7 +4,7 @@ import {StyledMain, StyledHeader} from "./Styles";
 const StyledContainer = styled.div`
     display:flex;
     flex-direction: row;
-    height: 50vh; 
+    min-height: 50vh; 
 `
 
 const StyledPhotoDiv = styled.div`
@@ -62,6 +62,10 @@ export default function HomeMain() {
                         Hi! I'm a third-year Computer Science student at Boston University 
                         with a strong interest in coding and problem-solving. 
                         I have experience with languages like Python, Java, and C++ 
+                        and enjoy learning new technologies. I’m especially interested in 
+                        software engineering and AI. 
+                        I'm looking for opportunities to apply my skills, 
+                        gain real-world experience, and grow as a developer.
                         and enjoy learning new technologies. I’m especially interested in 
                         software engineering and AI. 
                         I'm looking for opportunities to apply my skills, 

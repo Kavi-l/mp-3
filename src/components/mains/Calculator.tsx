@@ -49,6 +49,7 @@ const OperationsButton = styled.button`
     font-family: "Source Code Pro", serif;
     font-size: 20px;
     box-shadow: 2px 2px 8px black;
+    color: black;
 `
 
 const StyledInput = styled.input`
@@ -98,6 +99,7 @@ const StyledOutput = styled.h3<{ color: string }>`
     font-size: calc(12px + 2vw);
     color: ${(props) => props.color};  
     margin: 0 4vw;
+    color: black;
 `;
 
 
