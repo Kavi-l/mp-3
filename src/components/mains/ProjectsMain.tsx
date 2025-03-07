@@ -22,7 +22,7 @@ export default function ProjectsMain() {
         <StyledMain>
             <StyledHeader>Project</StyledHeader>
             <StyledContainer>
-                <StyledH4 id="github"><a href="https://github.com/Kavi-1?tab=repositories" target="_blank">GitHub</a></StyledH4>
+                <StyledH4><a href="https://github.com/Kavi-1?tab=repositories" target="_blank">GitHub</a></StyledH4>
                 <StyledProjectsContainer> 
                     <StyledDiv>
                         <h4>Connect Four</h4>                        
@@ -49,12 +49,10 @@ export default function ProjectsMain() {
                         <h4>Calculator</h4>                        
                         <ul>
                             <li>
-                                Developed an interactive Memory Match game in Java with customizable gameplay,
-                                including shuffling and scoring features
+                                Developed Calculator within this page (below)
                             </li>
                             <li>
-                                Demonstrated strong problem-solving skills by efficiently using arrays and loops 
-                                to enable dynamic player turns and match handling in the Memory Match project
+                                Interactive operations including addition, subtraction, multiplication, division, and exponent
                             </li>
                         </ul>
                     </StyledDiv>

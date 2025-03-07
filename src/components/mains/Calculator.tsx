@@ -45,25 +45,24 @@ const OperationsButton = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid;
+    border: 2px solid black;
     font-family: "Source Code Pro", serif;
     font-size: 20px;
     box-shadow: 2px 2px 8px black;
-    color: #ffcf93;
-    color: #733f2d;
 `
 
 const StyledInput = styled.input`
-    height: 25%;
+    height: 20%;
     width: 75%;
     text-align: center;
     border-radius: 10px;
     margin: 0;
     font-family: "Source Code Pro", serif;
-    font-size: 30px;
+    font-size: calc(10px + 2vw);
 `
 const ClearDiv = styled.div`
-    width: 125px;
+    // background-color: blue;
+    width: 20%;
     height: 75px;
     display: flex;
     margin-top:0;
@@ -71,18 +70,20 @@ const ClearDiv = styled.div`
     align-items: center;
 `
 const ClearButton = styled.button`
-    width: 100px;
-    font-size: 18px;
+    width: 80%;
+    height: 40%;
+    font-size: calc(8px + 1vw);
     font-family: "Source Code Pro", serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 26, 26)
+    background-color: rgb(255, 26, 26);
+    border: 100x solid red;
 `
 
 const OutputDiv = styled.div`
-    height: 80px;
-    width: 50%;
+    height: 8vh;
+    min-width: 50%;
     border: 1px solid black;
     border-radius: 15px;
     display: flex;
@@ -94,7 +95,9 @@ const OutputDiv = styled.div`
 
 const StyledOutput = styled.h3<{ color: string }>`
     font-family: "Source Code Pro", serif;
+    font-size: calc(12px + 2vw);
     color: ${(props) => props.color};  
+    margin: 0 4vw;
 `;
 
 

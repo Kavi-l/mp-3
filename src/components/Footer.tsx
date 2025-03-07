@@ -15,10 +15,14 @@ const StyledP = styled.p`
     text-decoration: none;
 `
 
+const StyledLink = styled(Link)`
+    color: white;  
+`
+
 export default function Footer() {
     return(
         <StyledFooter>
-            <StyledP>All rights reserved: <Link to="">Credits</Link>&#169;</StyledP >
+            <StyledP>All rights reserved: <StyledLink to="">Credits</StyledLink>&#169;</StyledP >
         </StyledFooter>
     )
 }

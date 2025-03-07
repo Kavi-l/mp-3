@@ -51,12 +51,12 @@ const StyledH4 = styled.h4`
 export default function HomeMain() {
     return (
         <StyledMain>
-            <StyledHeader id="home-subtitle">Home</StyledHeader>
+            <StyledHeader>Home</StyledHeader>
             <StyledContainer>
-                <StyledPhotoDiv id="myphoto">
+                <StyledPhotoDiv>
                     <StyledImg src="/myphoto.png" alt="this is an image of myself"/>
                 </StyledPhotoDiv>
-                <StyledBio id="bio">
+                <StyledBio>
                     <StyledH4> Short Bio</StyledH4>
                     <p>
                         Hi! I'm a third-year Computer Science student at Boston University 
@@ -69,7 +69,7 @@ export default function HomeMain() {
                     </p>
                 </StyledBio>
             </StyledContainer>
-            <StyledDescriptionP id="description"> This site serves as my online resume. It shows my education, 
+            <StyledDescriptionP> This site serves as my online resume. It shows my education, 
                 work experience, achievements, and references. It includes a short bio, a profile photo, 
                 and links to projects. The organized layout makes it easy to explore my background 
                 and qualifications.

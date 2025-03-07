@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+// some styled components used for the content inside many of the different mains
+
 export const StyledMain = styled.main`
     display: flex;
     flex-direction:column;
