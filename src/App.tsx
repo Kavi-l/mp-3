@@ -39,7 +39,7 @@ function Root() {
 
   useEffect(() => {
     if (lastValue === "") {
-      document.title = "Home";
+      document.title = "Home | Resume";
     } else {
       document.title = lastValue+" | Resume";
     }
