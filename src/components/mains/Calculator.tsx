@@ -99,8 +99,7 @@ const StyledOutput = styled.h3<{ color: string }>`
     font-size: calc(12px + 2vw);
     color: ${(props) => props.color};  
     margin: 0 4vw;
-    color: black;
-`;
+`
 
 
 export default function Calculator() {
