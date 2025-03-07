@@ -66,10 +66,6 @@ export default function HomeMain() {
                         software engineering and AI. 
                         I'm looking for opportunities to apply my skills, 
                         gain real-world experience, and grow as a developer.
-                        and enjoy learning new technologies. I’m especially interested in 
-                        software engineering and AI. 
-                        I'm looking for opportunities to apply my skills, 
-                        gain real-world experience, and grow as a developer.
                     </p>
                 </StyledBio>
             </StyledContainer>
