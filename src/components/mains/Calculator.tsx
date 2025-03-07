@@ -79,7 +79,7 @@ const ClearButton = styled.button`
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 26, 26);
-    border: 100x solid red;
+    color: black;
 `
 
 const OutputDiv = styled.div`
